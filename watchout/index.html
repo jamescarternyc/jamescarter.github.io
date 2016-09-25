@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="http://unicorn-ui.com/buttons/css/buttons.css"/>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <script src=https://use.typekit.net/xil7clq.js></script>
+  </head>
+  <body>
+  <div class ="buttons">
+    <!-- <button onclick="initialize('red')">Red</button> -->
+    <!-- <button onclick="initialize('blue')">Blue </button> -->
+    <button class="button button-3d button-action button-circle" onclick="initialize('red')">Red<i class="fa fa-thumbs-up"></i></button>
+     
+     <button class="button button-3d button-action button-circle" onclick="initialize('blue')">Blue<i class="fa fa-thumbs-up"></i></button>
+  </div>
+
+    <div class="scoreboard">
+      <!-- Modify the scoreboard when important events occur in your game! -->
+      <div class="highscore">High score: <span>0</span></div>
+      <div class="current">Current score: <span>0</span></div>
+      <div class="collisions">Collisions: <span>0</span></div>
+      <div>
+       <button class="button button-3d button-action button-circle" onclick="initialize('red')">Red<i class="fa fa-thumbs-up"></i></button>
+     
+     <button class="button button-3d button-action button-circle" onclick="initialize('blue')">Blue<i class="fa fa-thumbs-up"></i></button>
+      </div>
+    </div>
+    <div class="board">
+    <svg width ="1200" height = "700">
+    </svg>
+    <div class="mouse">
+    </div>
+    </div>
+    <script src="lib/d3.js" charset="utf-8"></script>
+    <script src='watchout2.js'></script>
+  </body>
+</html>
+
+
